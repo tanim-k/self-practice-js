@@ -43,7 +43,7 @@ let weatherUpdate = -34;
 const todaysWeatherUpdate = weatherUpdateChange(weatherUpdate);
 console.log( 'weather temperature:', todaysWeatherUpdate);
 //* case-3 *//
-// addition substruction multiplication division //
+// addition substruction multiplication division  & the remainder//
 // addition //
 const num1 = 33;
 const num2 = 44;  
@@ -56,6 +56,13 @@ console.log('difference:',difference);
 /* MULTIPLICATION */
 const mul = num1*num2*num3;
 console.log('multiplication:', mul);
+/* division */
+const division = num2/num1;
+console.log('DIVISION:', division);
+/* the remainder */
+const remainder = num3%num1;
+console.log('remainder:', remainder);
+
 //* case-4 *//
 //* case-5 *//
 //* case-6 *//
